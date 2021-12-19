@@ -1,8 +1,12 @@
+
 tasks:
   - init: |
       echo 'TODO: build project'
     command: |
       echo 'TODO: start app'
 ports:
-  - port: 3000
-    onOpen: open-preview
+  - port: 5500
+    onOpen: open-browser
+vscode:
+  extensions:
+    - ritwickdey.liveserver
